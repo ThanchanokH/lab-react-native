@@ -1,1 +1,4 @@
 น.ส.ธันย์ชนก หงส์สุวรรวัธนะ 6310110209
+มีการเพิ่มจังหวัดในหน้า ZipCodeScreen 2จังหวัด คือ Trang และ Lampang
+ในหน้า ZipCodeScreen มีการเพิ่ม styles background fontsize ความหนาตัวอักษร
+ในหน้า WeatherScreen จัดให้ temp และ °C อยู่ใน row เดียวกัน
