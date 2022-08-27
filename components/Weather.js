@@ -44,14 +44,14 @@ const styles = StyleSheet.create({
         height: '100%',
     },
     t1: {
-        fontSize: 40 ,
+        fontSize: 30 ,
         color: 'white',
         textAlign: 'center',
         backgroundColor: 'rgba(0, 0, 0, .5)',
         width: '100%',
     },
     t2: {
-        fontSize: 45 ,
+        fontSize: 50 ,
         color: 'white',
         textAlign: 'center',
         backgroundColor: 'rgba(0, 0, 0, .5)',

@@ -6,8 +6,10 @@ export default function Forecast(props) {
     <View style={styles.t3}>
         <Text style={styles.t1}>{props.main}</Text>
         <Text style={styles.t2}>{props.description}</Text>
+    <View style={styles.t4}>   
         <Text style={styles.t1}>{props.temp}</Text>
-        <Text style={styles.t2}>°C</Text>
+        <Text style={styles.t1}>°C</Text>
+    </View>
     </View>
     );
 }
@@ -22,8 +24,12 @@ const styles = StyleSheet.create({
         color: 'white',
         textAlign: 'center',
     },
-    t3:{
+    t3: {
         backgroundColor: 'rgba(0, 0, 0, .5)',
         width: '100%',
-    }
+    },
+    t4: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+    },
 });

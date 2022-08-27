@@ -30,8 +30,8 @@ export default function ZipCodeScreen(){
         <FlatList
             data={availableZipItems}
             keyExtractor={_keyExtractor}
-            renderItem={({item}) => <ZipItem {...item} navigation={navigation}/>}
-        />
+            renderItem={({item}) => <ZipItem {...item} navigation={navigation} />}
+            style={styles.bg} />
     );
    
 }
@@ -45,11 +45,18 @@ const styles = StyleSheet.create({
     zipPlace: {
         flex: 1,
         padding: 20,
-        fontSize: 18,
+        fontSize: 20,
+        color: 'white',
+        fontWeight: "bold",
     },
     zipCode: {
         flex: 1,
         padding: 20,
-        fontSize:18,
-    }
+        fontSize:20,
+        color: 'white',
+        fontWeight: "bold",
+    },
+    bg: {
+        backgroundColor: 'steelblue',
+    },
 })
